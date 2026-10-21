@@ -19,7 +19,7 @@ setup(
     zip_safe=True,
     maintainer='otlvrzl',
     maintainer_email='otlvrzl@gmail.com',
-    description='tf2 static broadcaster',
+    description='tf2 tests',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -31,6 +31,7 @@ setup(
             'static_turtle_tf2_broadcaster = learning_tf2_py.static_turtle_tf2_broadcaster:main',
             'turtle_tf2_broadcaster = learning_tf2_py.turtle_tf2_broadcaster:main',
             'turtle_tf2_listener = learning_tf2_py.turtle_tf2_listener:main',
+            'fixed_frame_tf2_broadcaster = learning_tf2_py.fixed_frame_tf2_broadcaster:main',
         ],
     },
 )

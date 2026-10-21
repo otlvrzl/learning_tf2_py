@@ -3,7 +3,7 @@
 <package format="3">
   <name>learning_tf2_py</name>
   <version>0.0.0</version>
-  <description>tf2 static broadcaster</description>
+  <description>tf2 tests</description>
   <maintainer email="otlvrzl@gmail.com">otlvrzl</maintainer>
   <license>Apache-2.0</license>
 
