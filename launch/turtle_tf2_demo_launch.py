@@ -38,6 +38,6 @@ def generate_launch_description():
             name='listener',
             parameters=[
                 {'target_frame': LaunchConfiguration('target_frame')}
-            ]
+            ],
         ),
     ])

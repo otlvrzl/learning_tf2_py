@@ -9,11 +9,13 @@ def generate_launch_description():
     return LaunchDescription([
         IncludeLaunchDescription(
             PathJoinSubstitution([
-                FindPackageShare('learning_tf2_py'), 'launch', 'turtle_tf2_demo_launch.py'])
+                FindPackageShare('learning_tf2_py'), 'launch', 'turtle_tf2_demo_launch.py']),
+            launch_arguments={'target_frame': 'carrot1'}.items(),
         ),
         Node(
             package='learning_tf2_py',
             executable='fixed_frame_tf2_broadcaster',
             name='fixed_broadcaster',
         ),
+        
     ])
